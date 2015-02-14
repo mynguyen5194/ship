@@ -1,6 +1,10 @@
+/*
+ * CruiseShip class which extends from Ship
+ */
 package ship_classes;
 
 public class CruiseShip extends Ship {
+	// Some extra properties of CruiseShip
 	private int passengerRooms;
 	private int employees;
 	private int passengerDecks;
@@ -54,8 +58,8 @@ public class CruiseShip extends Ship {
 	
 	public void displayShipInfo() {
 		super.displayShipInfo();
-		System.out.printf("\nPassenger Rooms: " + this.getPassengerRooms() +
-				"\nNumber of Employees: " + this.getEmployees() + "\nFood: " + this.getFood() + "\n\n");
+		System.out.printf("Passenger Rooms: " + this.getPassengerRooms() +
+				"\nNumber of Employees: " + this.getEmployees() + "\nFood: " + this.getFood() + "\n");
 	}
 	
 	public void printCrew() {

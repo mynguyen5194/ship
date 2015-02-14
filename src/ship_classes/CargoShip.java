@@ -1,6 +1,11 @@
+/*
+ * CargoShip class which extends from Ship 
+ */
+
 package ship_classes;
 
 public class CargoShip extends Ship {
+	// Some distinguished properties of CargoShip
 	private String typeOfCargo;
 	private double cargoCapacity;
 	private boolean crane;
@@ -44,8 +49,8 @@ public class CargoShip extends Ship {
 	
 	public void displayShipInfo() {
 		super.displayShipInfo();
-		System.out.printf("\nType of Cargo: " + this.getTypeOfCargo() + "\nCargo Capacity: " + 
-		this.getCargoCapacity() + "\nCrane: " + this.isCrane() + "\n\n");
+		System.out.printf("Type of Cargo: " + this.getTypeOfCargo() + "\nCargo Capacity: " + 
+		this.getCargoCapacity() + "\nCrane: " + this.isCrane() + "\n");
 	}
 	
 	public void printCrew() {

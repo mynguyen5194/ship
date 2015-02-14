@@ -1,3 +1,7 @@
+/*
+ * Regular Ship class
+ */
+
 package ship_classes;
 
 public class Ship {
@@ -183,11 +187,11 @@ public class Ship {
 				+ " GT" + "\nLength: " + this.getLength() + " ft" + "\nBeam: " + this.getBeam() + " ft"
 				+ "\nDraught: " + this.getDraught() + " ft" + "\nDepth: " + this.getDepth() + " ft"
 				+ "\nPropulsion: " + this.getPropulsion() +"\nSpeed: " + this.getSpeed() + " knots"
-				+ "\nNumber of crew: " + this.getCrew());
+				+ "\nNumber of crew: " + this.getCrew() + "\n");
 	}
 	
 	public void printCrew() {
-		System.out.printf("Print the people on the base Ship\n");
+		System.out.printf("Print the crew members on the Ship\n");
 	}
 	
 	public void printEvents() {
